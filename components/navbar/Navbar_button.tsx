@@ -10,12 +10,7 @@ type Props = {
 const NavbarButton = ({ name, href }: Props) => {
     return (
         <div className="flex w-full">
-            <Link
-                href={href}
-                scroll={true}
-            >
-                {name}
-            </Link>
+            <Link href={href}>{name}</Link>
         </div>
     );
 };
