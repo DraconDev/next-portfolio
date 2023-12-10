@@ -17,8 +17,13 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
-            <body className={`${raleway.className} bg-primary text-white`}>
+        <html
+            lang="en"
+            className="h-screen w-screen"
+        >
+            <body
+                className={`${raleway.className} bg-primary text-white h-full w-full`}
+            >
                 <Navbar />
                 {children}
             </body>

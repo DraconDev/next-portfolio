@@ -1,17 +1,26 @@
 "use client";
+import Intro from "@/components/intro/Intro";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
 
 export default function Home() {
     const state = useContext(MyContext);
+
+    const backgroundImage = "/bg_image.png"; // Update with your image path
+
+    const mainDivStyle = {
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+    };
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24 text-">
-            <div
-                className=" w-full max-w-5xl items-center justify-between  text-white"
-                
-            >
-                {state.fullName}
-                <div className="h-[4000px]">asd</div>
+        <main
+            className="flex justify-center w-full h-full "
+            style={mainDivStyle}
+        >
+            <div className="max-w-5xl items-center w-full h-full">
+                <Intro />
             </div>
         </main>
     );

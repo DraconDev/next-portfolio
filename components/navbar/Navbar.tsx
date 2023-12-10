@@ -1,7 +1,7 @@
 "use client";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
-import Navbar_button from "./Narbar_button";
+import Navbar_button from "./Navbar_button";
 
 type Props = {};
 
@@ -19,7 +19,7 @@ const Navbar = (props: Props) => {
     const state = useContext(MyContext);
     return (
         <div
-            className=" z-10 fixed left-0 top-0   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-sm md:text-lg lg:text-2xl "
+            className="z-10   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-sm md:text-xl lg:text-2xl "
             id="home"
         >
             <div className="flex justify-between">
