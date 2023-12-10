@@ -22,6 +22,7 @@ interface User {
     fullName: string;
     introduction: string;
     email: string;
+    linkedin: string;
     projects: Project[];
     skills: Skills;
 }
@@ -31,6 +32,7 @@ const user: User = {
     introduction:
         "Software engineer focused on full stack development with over 20 years of programming experience",
     email: "adamnagywork@gmail.com",
+    linkedin: "https://www.linkedin.com/in/adam-nagy-62390216b/",
     projects: [
         {
             name: "Job Board",
