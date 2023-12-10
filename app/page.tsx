@@ -1,8 +1,8 @@
 "use client";
 
 import Skills from "@/components/Skills/Skills";
+import Work from "@/components/Work/Work";
 
-import Work from "@/components/Work";
 import Intro from "@/components/intro/Intro";
 import BgImage from "@/components/layout/BgImage";
 import MyContext from "@/state/Context";
