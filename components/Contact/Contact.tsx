@@ -20,19 +20,19 @@ const Contact = (props: Props) => {
                 link={state.contact.email}
                 text={true}
             >
-                <CiMail className="w-8 h-8 gap-2" />
+                <CiMail className="w-10 h-10 gap-2 text-" />
             </ContactCard>
             <ContactCard
                 name="LinkedIn"
                 link={state.contact.linkedin}
             >
-                <FaLinkedin className="w-8 h-8 gap-2" />
+                <FaLinkedin className="w-10 h-10 gap-2 text-" />
             </ContactCard>
             <ContactCard
                 name="Github"
                 link={state.contact.github}
             >
-                <FaGithub className="w-8 h-8 gap-2" />
+                <FaGithub className="w-8 h-8 gap-2 text-" />
             </ContactCard>
         </SectionContainer>
     );

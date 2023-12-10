@@ -1,5 +1,4 @@
 import { default as Link } from "next/link";
-import { CiMail } from "react-icons/ci";
 
 type Props = {
     name: string;
@@ -14,12 +13,12 @@ const ContactCard = (props: Props) => {
             href={props.name === "Email" ? `mailto:${props.link}` : props.link}
             className="flex justify-center items-center w-full"
         >
-            <div className="flex flex-col">
-                <div className="text-4xl flex justify-center gap-2 items-center">
-                    {props.name}
+            <div className="flex flex-col justify-center items-center w-full">
+                <div className="text-4xl flex justify-between gap-2 items-center w-[250px]">
+                    <div className="text-accent">{props.name}</div>
                     {props.children}
                 </div>
-                {props.text && <p className="text-2xl">{props.link} </p>}
+                {/* {props.text && <p className="text-2xl">{props.link} </p>} */}
             </div>
         </Link>
     );
