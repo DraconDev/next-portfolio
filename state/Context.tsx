@@ -29,7 +29,7 @@ interface User {
 const user: User = {
     fullName: "Adam Nagy",
     introduction:
-        "Software engineer focused on full stack development with over 20 years of programming experience.",
+        "Software engineer focused on full stack development with over 20 years of programming experience",
     email: "adamnagywork@gmail.com",
     projects: {
         // Projects here
