@@ -1,6 +1,9 @@
 "use client";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
+import { CiMail } from "react-icons/ci";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import NavbarIcon from "./NavbarIcon";
 import Navbar_button from "./Navbar_button";
 
 type Props = {};
@@ -12,7 +15,7 @@ type Options = {
 const options: Options = {
     Projects: "#work",
     Skills: "#skills",
-    Contact: "#contact",
+    // Contact: "#contact",
 };
 
 const Navbar = (props: Props) => {
@@ -38,7 +41,25 @@ const Navbar = (props: Props) => {
                     ))}
                 </div>
             </div>
-            <div className=""></div>
+
+            <NavbarIcon
+                name="Email"
+                link={state.contact.email}
+            >
+                <CiMail className="w-10 h-10 gap-2 text-" />
+            </NavbarIcon>
+            <NavbarIcon
+                name="Github"
+                link={state.contact.github}
+            >
+                <FaGithub className="w-8 h-8 gap-2 text-" />
+            </NavbarIcon>
+            <NavbarIcon
+                name="LinkedIn"
+                link={state.contact.linkedin}
+            >
+                <FaLinkedin className="w-10 h-10 gap-2 text-" />
+            </NavbarIcon>
         </div>
     );
 };
