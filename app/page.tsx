@@ -1,8 +1,10 @@
 "use client";
-import BgImage from "@/components/BgImage";
-import Skills from "@/components/Skills";
+
+import Skills from "@/components/Skills/Skills";
+
 import Work from "@/components/Work";
 import Intro from "@/components/intro/Intro";
+import BgImage from "@/components/layout/BgImage";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
 
