@@ -23,6 +23,7 @@ export default function RootLayout({
         >
             <body
                 className={`${raleway.className} bg-primary text-white h-full w-full`}
+                id="home"
             >
                 <Navbar />
                 {children}

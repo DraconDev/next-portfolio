@@ -21,10 +21,7 @@ const options: Options = {
 const Navbar = (props: Props) => {
     const state = useContext(MyContext);
     return (
-        <div
-            className="z-10   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-base md:text-xl lg:text-2xl flex justify-center  mb-6"
-            id="home"
-        >
+        <div className="z-20 bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-base md:text-xl lg:text-2xl flex justify-center fixed top-0 left-0 ">
             <div className="flex justify-between  max-w-5xl grow items-center ">
                 <Navbar_button
                     href="#home"
