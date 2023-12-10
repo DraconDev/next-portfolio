@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://skill",
+            "request": "launch",
+            "url": "http://skill"
+        }
+    ]
+}

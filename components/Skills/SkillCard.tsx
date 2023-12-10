@@ -5,13 +5,20 @@ type Props = {
 
 const SkillCard = (props: Props) => {
     return (
-        <div>
-            <div className="w-full">{props.name}</div>
-            <ul>
+        <div className="min-w-[270px]  bg-secondary rounded-lg  flex flex-col border-2 border-secondary ">
+            <div className="text-2xl flex justify-center items-center border-b-2 border-accent p-2">
+                {props.name}
+            </div>
+            <div className=" flex flex-col ">
                 {props.items.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <div
+                        className={`p-2  ${index % 2 === 0 ? "" : ""} `}
+                        key={index}
+                    >
+                        <div className="">{item}</div>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };
