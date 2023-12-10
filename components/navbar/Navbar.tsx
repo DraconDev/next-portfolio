@@ -19,10 +19,10 @@ const Navbar = (props: Props) => {
     const state = useContext(MyContext);
     return (
         <div
-            className="z-10   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-sm md:text-xl lg:text-2xl "
+            className="z-10   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-sm md:text-xl lg:text-2xl flex justify-center "
             id="home"
         >
-            <div className="flex justify-between">
+            <div className="flex justify-between  max-w-5xl grow">
                 <Navbar_button
                     href="#home"
                     name={state.fullName}
