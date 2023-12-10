@@ -3,11 +3,20 @@
 @tailwind utilities;
 
 .bg-image {
-    background-image: url("/bg_image.png");
+    /* background-image: url("/bg_image.png"), 90%; */
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
+
+    background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 95%,
+            theme("colors.primary")
+        ),
+        url("/bg_image.png");
+    background-position: center;
 }
 
 .bg-img {
