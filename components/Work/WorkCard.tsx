@@ -1,3 +1,4 @@
+"use client";
 type Props = {};
 
 const WorkCard = (props: Props) => {
