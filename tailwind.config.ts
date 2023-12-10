@@ -18,6 +18,7 @@ const config: Config = {
                 secondary: "#171717",
                 "secondary-light": "#222222",
                 accent: "#B70B7F",
+                "accent-light": "B70B7F",
             },
         },
     },

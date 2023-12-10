@@ -9,7 +9,7 @@ type Props = {
 
 const NavbarButton = ({ name, href }: Props) => {
     return (
-        <div className="flex w-full">
+        <div className="flex ">
             <Link href={href}>{name}</Link>
         </div>
     );
