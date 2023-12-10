@@ -1,6 +1,6 @@
 "use client";
 
-import { Project } from "next/dist/build/swc";
+import { Project } from "@/state/Context";
 
 type Props = {
     project: Project;

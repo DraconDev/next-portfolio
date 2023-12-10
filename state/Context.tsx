@@ -1,12 +1,12 @@
 import { createContext } from "react";
 
-export interface Project {
+export type Project = {
     name: string;
     github_link: string;
     description: string;
     host_link: string;
     image_path: string;
-}
+};
 
 interface Skills {
     Languages: string[];
