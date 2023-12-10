@@ -1,5 +1,6 @@
 "use client";
 import Skills from "@/components/Skills";
+import Work from "@/components/Work";
 import Intro from "@/components/intro/Intro";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
