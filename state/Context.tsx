@@ -81,10 +81,10 @@ const user: User = {
         },
         {
             name: "This portfolio",
-            github_link: "https://github.com/DraconDev/portfolio_flask",
-            description: "Python Flask Jinja",
+            github_link: "https://github.com/DraconDev/next-portfolio",
+            description: "React Next Typescript Context Tailwind",
             host_link: "/",
-            image_path: "/thumbs/portfolio.jpg",
+            image_path: "/thumbs/portfolio.png",
         },
     ],
     skills: {
