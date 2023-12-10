@@ -9,21 +9,21 @@ type Props = {
 
 const WorkCard = (props: Props) => {
     return (
-        <div className="w-full p-2 flex flex-col">
-            <h1 className="text-2xl">{props.project.name}</h1>
+        <div className="w-full flex flex-col">
+            <h1 className="text-3xl">{props.project.name}</h1>
             <Image
                 src={`${props.project.image_path}`}
                 alt={`${props.project.name}`}
                 width={1200}
                 height={800}
-                className="object-cover "
+                className="object-cover border-2 border-secondary"
             />
 
-            <div className="text-xl gap-1 flex justify-center">
+            <div className="sm:text-sm md:text-xl gap-1 flex justify-center p-2 pb-6 flex-wrap">
                 {props.project.description.split(" ").map((item, index) => (
                     <div
                         key={index}
-                        className="bg-secondary-light rounded-md p-2 text-ac"
+                        className="bg-secondary rounded-md p-1 text px-2"
                     >
                         {item}
                     </div>
