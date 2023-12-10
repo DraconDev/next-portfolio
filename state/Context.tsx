@@ -83,7 +83,7 @@ const user: User = {
             name: "This portfolio",
             github_link: "https://github.com/DraconDev/next-portfolio",
             description: "React Next Typescript Context Tailwind",
-            host_link: "https://adam-nagy-portfolio.vercel.app/",
+            host_link: "/",
             image_path: "/thumbs/portfolio.png",
         },
     ],
