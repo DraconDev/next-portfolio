@@ -9,7 +9,10 @@ type Props = {};
 const Skills = (props: Props) => {
     const state = useContext(MyContext);
     return (
-        <SectionContainer name="Skills">
+        <SectionContainer
+            name="Skills"
+            id="skills"
+        >
             <div className="w-full flex flex-wrap justify-center gap-2">
                 {Object.entries(state.skills).map(
                     ([category, skill], index) => (

@@ -9,8 +9,14 @@ type Props = {};
 const Work = (props: Props) => {
     const state = useContext(MyContext);
     return (
-        <SectionContainer name="Work">
-            <div className="flex flex-col">
+        <SectionContainer
+            name="Work"
+            id="work"
+        >
+            <div
+                className="flex flex-col"
+                id="work"
+            >
                 {state.projects.map((project, index) => (
                     <WorkCard
                         project={project}

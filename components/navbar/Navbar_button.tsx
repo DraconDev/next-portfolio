@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 
 type Props = {
@@ -8,9 +9,13 @@ type Props = {
 
 const Navbar_button = ({ name, href }: Props) => {
     return (
-        <div className="w-full">
-            <Link href={href}>
-                <div className="w-full">{name}</div>
+        <div className="flex w-full">
+            <Link
+                href={href}
+                className="transition-all duration-500 cursor-pointer"
+                scroll={true}
+            >
+                <p className="">{name}</p>
             </Link>
         </div>
     );

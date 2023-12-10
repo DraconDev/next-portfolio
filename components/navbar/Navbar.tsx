@@ -10,7 +10,7 @@ type Options = {
 };
 
 const options: Options = {
-    Projects: "#projects",
+    Projects: "#work",
     Skills: "#skills",
     Contact: "#contact",
 };
@@ -22,11 +22,12 @@ const Navbar = (props: Props) => {
             className="z-10   bg-secondary w-full p-2 px-4  border-b-2 border-accent sm:text-sm md:text-xl lg:text-2xl flex justify-center "
             id="home"
         >
-            <div className="flex justify-between  max-w-5xl grow">
+            <div className="flex justify-between  max-w-5xl grow ">
                 <Navbar_button
                     href="#home"
                     name={state.fullName}
                 />
+
                 <div className="flex gap-3">
                     {Object.keys(options).map((key) => (
                         <Navbar_button
