@@ -1,4 +1,5 @@
 "use client";
+import Skills from "@/components/Skills";
 import Intro from "@/components/intro/Intro";
 import MyContext from "@/state/Context";
 import { useContext } from "react";
@@ -21,6 +22,8 @@ export default function Home() {
         >
             <div className="max-w-5xl items-center w-full h-full">
                 <Intro />
+                <Skills />
+                <Work />
             </div>
         </main>
     );
