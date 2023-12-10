@@ -16,7 +16,7 @@ const Intro = (props: Props) => {
                 width={100}
                 height={100}
             /> */}
-            <div className="w-full h-full justify-center items-center flex ">
+            <div className="w-full h-full justify-center items-center flex z-10">
                 <div className="gap-2 flex flex-col justify-center items-center text-center bg-primary bg-opacity-50 rounded-lg p-2 ">
                     {/* <h1 className="text-4xl">{state.fullName}</h1> */}
                     <h2 className="text-2xl">{state.introduction}</h2>
