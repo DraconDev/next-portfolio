@@ -1,5 +1,10 @@
 "use client";
-type Props = {};
+
+import { Project } from "next/dist/build/swc";
+
+type Props = {
+    project: Project;
+};
 
 const WorkCard = (props: Props) => {
     return <div>WorkCard</div>;

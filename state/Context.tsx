@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-interface Project {
+export interface Project {
     name: string;
     github_link: string;
     description: string;
