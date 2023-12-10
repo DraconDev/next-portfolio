@@ -7,18 +7,17 @@ type Props = {
     href: string;
 };
 
-const Navbar_button = ({ name, href }: Props) => {
+const NavbarButton = ({ name, href }: Props) => {
     return (
         <div className="flex w-full">
             <Link
                 href={href}
-                className="transition-all duration-500 cursor-pointer"
                 scroll={true}
             >
-                <p className="">{name}</p>
+                {name}
             </Link>
         </div>
     );
 };
 
-export default Navbar_button;
+export default NavbarButton;
