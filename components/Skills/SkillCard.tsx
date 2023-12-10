@@ -12,7 +12,9 @@ const SkillCard = (props: Props) => {
             <div className=" flex flex-col ">
                 {props.items.map((item, index) => (
                     <div
-                        className={`p-2  ${index % 2 === 0 ? "" : ""} `}
+                        className={`p-2  ${
+                            index % 2 === 0 ? "bg-secondary-light" : ""
+                        } `}
                         key={index}
                     >
                         <div className="">{item}</div>
