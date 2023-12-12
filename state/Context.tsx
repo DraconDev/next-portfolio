@@ -56,29 +56,29 @@ const user: User = {
             host_link: "https://screensaga-k8ou.vercel.app/",
             image_path: "/thumbs/screen_saga.jpg",
         },
-        {
-            name: "Amazon Store",
-            github_link: "https://github.com/Nadaga/amazon-clone",
-            description: "React Redux Typescript SCSS Firebase",
-            host_link: "https://heuristic-wing-b57de6.netlify.app/",
-            image_path: "/thumbs/amazonStore.jpg",
-        },
-        {
-            name: "Movie Site",
-            github_link: "https://github.com/Nadaga/movie-site",
-            description: "React Javascript MUI Firebase",
-            host_link: "https://movie-site-f90c7.web.app/",
-            image_path: "/thumbs/movieSite.jpg",
-        },
-        {
-            name: "Amazon Filter",
-            github_link:
-                "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
-            description: "Next Typescript Tailwind Playwright Zustand",
-            host_link:
-                "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
-            image_path: "/thumbs/amazon_filter.jpg",
-        },
+        // {
+        //     name: "Amazon Store",
+        //     github_link: "https://github.com/Nadaga/amazon-clone",
+        //     description: "React Redux Typescript SCSS Firebase",
+        //     host_link: "https://heuristic-wing-b57de6.netlify.app/",
+        //     image_path: "/thumbs/amazonStore.jpg",
+        // },
+        // {
+        //     name: "Movie Site",
+        //     github_link: "https://github.com/Nadaga/movie-site",
+        //     description: "React Javascript MUI Firebase",
+        //     host_link: "https://movie-site-f90c7.web.app/",
+        //     image_path: "/thumbs/movieSite.jpg",
+        // },
+        // {
+        //     name: "Amazon Filter",
+        //     github_link:
+        //         "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
+        //     description: "Next Typescript Tailwind Playwright Zustand",
+        //     host_link:
+        //         "https://github.com/DraconDev/Amazon-easyshop-filter-scraper",
+        //     image_path: "/thumbs/amazon_filter.jpg",
+        // },
         {
             name: "This portfolio",
             github_link: "https://github.com/DraconDev/next-portfolio",
