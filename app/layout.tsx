@@ -19,7 +19,7 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className="h-screen w-screen overflow-x-hidden "
+            className="h-screen  "
         >
             <body
                 className={`${raleway.className} bg-primary text-white h-full w-full`}
