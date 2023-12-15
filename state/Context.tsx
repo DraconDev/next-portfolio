@@ -54,7 +54,7 @@ const user: User = {
             github_link: "https://github.com/DraconDev/screensaga",
             description: "Next Typescript MUI SWR",
             host_link: "https://screensaga-k8ou.vercel.app/",
-            image_path: "/thumbs/screen_saga.jpg",
+            image_path: "/thumbs/screen_saga.png",
         },
         // {
         //     name: "Amazon Store",
