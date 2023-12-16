@@ -43,6 +43,14 @@ const user: User = {
     },
     projects: [
         {
+            name: "E-commerce",
+            github_link: "https://github.com/DraconDev/next-ecommerce",
+            description:
+                "Next Typescript Tailwind Jotai Next-Auth Stripe-Payment React-Query",
+            host_link: "https://next-ecommerce-ten-sigma.vercel.app/",
+            image_path: "/thumbs/ecom.png",
+        },
+        {
             name: "Job Board",
             github_link: "https://github.com/DraconDev/job-board",
             description: "Next Typescript Tailwind Zustand Mongo Next-Auth",
