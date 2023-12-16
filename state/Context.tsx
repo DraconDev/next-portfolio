@@ -48,7 +48,7 @@ const user: User = {
             description:
                 "Next Typescript Tailwind Jotai Next-Auth Stripe-Payment React-Query",
             host_link: "https://next-ecommerce-ten-sigma.vercel.app/",
-            image_path: "/thumbs/ecom.png",
+            image_path: "/thumbs/estore.png",
         },
         {
             name: "Job Board",
