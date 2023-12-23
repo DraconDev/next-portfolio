@@ -53,7 +53,8 @@ const user: User = {
         {
             name: "Job Board",
             github_link: "https://github.com/DraconDev/job-board",
-            description: "Next Typescript Tailwind Zustand Mongo Next-Auth Quill",
+            description:
+                "Next Typescript Tailwind Zustand Mongo Next-Auth Quill React Query",
             host_link: "https://job-board-azure.vercel.app/",
             image_path: "/thumbs/job_board.png",
         },
