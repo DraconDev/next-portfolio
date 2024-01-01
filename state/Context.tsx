@@ -35,7 +35,7 @@ interface User {
 const user: User = {
     fullName: "Adam Nagy",
     introduction:
-        "Software engineer focused on full stack development with over 20 years of programming experience",
+        "Results-driven software engineer, dedicated to producing effective solutions in full-stack development",
     contact: {
         github: "https://github.com/DraconDev",
         email: "adamnagywork@gmail.com",
