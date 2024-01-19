@@ -15,7 +15,7 @@ interface Skills {
     BackEnd: string[];
     Design: string[];
     "Data & API": string[];
-    Automation: string[];
+    Test: string[];
     // Version Control: string[]; // Uncomment if needed
 }
 
@@ -115,9 +115,25 @@ const user: User = {
         },
     ],
     skills: {
-        Languages: ["Javascript", "Typescript", "Python", "Go", "Rust", "C++"],
-        FrontEnd: ["React", "Next", "Redux", "Zustand", "Context"],
-        BackEnd: ["Node", "Express", "Next", "Gin", "Flask", "Django"],
+        Languages: [
+            "Javascript",
+            "Typescript",
+            "Python",
+            "Go",
+            "Java,",
+            "Rust",
+        ],
+        FrontEnd: ["React", "Next", "Redux", "Zustand", "React query", "Jotai"],
+        BackEnd: [
+            "Node",
+            "Express",
+            "Next",
+            "Gin",
+            "Flask",
+            "Django",
+            "FastApi",
+            "Spring",
+        ],
         Design: ["Tailwind", "CSS", "SASS", "MUI"],
         "Data & API": [
             "Mongo",
@@ -127,7 +143,7 @@ const user: User = {
             "Supabase",
             "Redis",
         ],
-        Automation: ["Playwright", "Selenium"],
+        Test: ["Playwright", "Selenium", "Vite test", "Jest"],
         // Version Control: ["Git"], // Uncomment if needed
     },
 };
