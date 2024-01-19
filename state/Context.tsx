@@ -2,6 +2,7 @@ import { createContext } from "react";
 
 export type Project = {
     name: string;
+    subtitle: string;
     github_link: string;
     description: string;
     host_link: string;
@@ -43,7 +44,19 @@ const user: User = {
     },
     projects: [
         {
+            name: "Media map",
+            subtitle: "User driven review and recommendation platform",
+            github_link:
+                "https://github.com/DraconDev/next-media-connection-map",
+            description:
+                "Next Typescript Tailwind React-Query Supabase SQL Auth RPC RLS",
+            host_link: "https://next-media-connection-map-icwa.vercel.app/",
+            image_path: "/thumbs/medconmap.png",
+        },
+        {
             name: "E-commerce",
+            subtitle: "",
+
             github_link: "https://github.com/DraconDev/next-ecommerce",
             description:
                 "Next Typescript Tailwind Jotai Next-Auth Stripe-Payment React-Query",
@@ -52,6 +65,8 @@ const user: User = {
         },
         {
             name: "Job Board",
+            subtitle: "",
+
             github_link: "https://github.com/DraconDev/job-board",
             description:
                 "Next Typescript Tailwind Zustand Mongo Next-Auth Quill React Query",
@@ -60,6 +75,8 @@ const user: User = {
         },
         {
             name: "Movie recommendations",
+            subtitle: "",
+
             github_link: "https://github.com/DraconDev/screensaga",
             description: "Next Typescript MUI SWR",
             host_link: "https://screensaga-k8ou.vercel.app/",
@@ -90,6 +107,7 @@ const user: User = {
         // },
         {
             name: "This portfolio",
+            subtitle: "",
             github_link: "https://github.com/DraconDev/next-portfolio",
             description: "React Next Typescript Context Tailwind",
             host_link: "/",

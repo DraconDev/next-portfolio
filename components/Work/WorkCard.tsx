@@ -21,6 +21,7 @@ const WorkCard = (props: Props) => {
                     <FaGithub className="w-8 h-8" />
                 </Link>
             </div>
+            <div className="text-md">{props.project.subtitle}</div>
             <Link href={props.project.host_link}>
                 <Image
                     src={`${props.project.image_path}`}
