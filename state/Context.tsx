@@ -120,7 +120,7 @@ const user: User = {
             "Typescript",
             "Python",
             "Go",
-            "Java,",
+            "Java",
             "Rust",
         ],
         FrontEnd: ["React", "Next", "Redux", "Zustand", "React query", "Jotai"],
