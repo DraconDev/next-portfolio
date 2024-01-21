@@ -124,16 +124,7 @@ const user: User = {
             "Rust",
         ],
         FrontEnd: ["React", "Next", "Redux", "Zustand", "React query", "Jotai"],
-        BackEnd: [
-            "Node",
-            "Express",
-            "Next",
-            "Gin",
-            "Flask",
-            "Django",
-            "FastApi",
-            "Spring",
-        ],
+        BackEnd: ["Express", "Gin", "Spring", "Flask", "Django", "FastApi"],
         Design: ["Tailwind", "CSS", "SASS", "MUI"],
         "Data & API": [
             "Mongo",
