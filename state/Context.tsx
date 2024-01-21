@@ -44,6 +44,15 @@ const user: User = {
     },
     projects: [
         {
+            name: "E-commerce",
+            subtitle: "",
+            github_link: "https://github.com/DraconDev/next-ecommerce",
+            description:
+                "Next Typescript Tailwind Jotai Next-Auth Stripe-Payment React-Query",
+            host_link: "https://next-ecommerce-ten-sigma.vercel.app/",
+            image_path: "/thumbs/estore.png",
+        },
+        {
             name: "Media map",
             subtitle: "User driven review and recommendation platform",
             github_link:
@@ -53,16 +62,7 @@ const user: User = {
             host_link: "https://next-media-connection-map-icwa.vercel.app/",
             image_path: "/thumbs/medconmap.png",
         },
-        {
-            name: "E-commerce",
-            subtitle: "",
 
-            github_link: "https://github.com/DraconDev/next-ecommerce",
-            description:
-                "Next Typescript Tailwind Jotai Next-Auth Stripe-Payment React-Query",
-            host_link: "https://next-ecommerce-ten-sigma.vercel.app/",
-            image_path: "/thumbs/estore.png",
-        },
         {
             name: "Job Board",
             subtitle: "",
