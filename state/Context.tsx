@@ -73,15 +73,15 @@ const user: User = {
             host_link: "https://job-board-azure.vercel.app/",
             image_path: "/thumbs/job_board.png",
         },
-        {
-            name: "Movie recommendations",
-            subtitle: "",
+        // {
+        //     name: "Movie recommendations",
+        //     subtitle: "",
 
-            github_link: "https://github.com/DraconDev/screensaga",
-            description: "Next Typescript MUI SWR",
-            host_link: "https://screensaga-k8ou.vercel.app/",
-            image_path: "/thumbs/screen_saga.png",
-        },
+        //     github_link: "https://github.com/DraconDev/screensaga",
+        //     description: "Next Typescript MUI SWR",
+        //     host_link: "https://screensaga-k8ou.vercel.app/",
+        //     image_path: "/thumbs/screen_saga.png",
+        // },
         // {
         //     name: "Amazon Store",
         //     github_link: "https://github.com/Nadaga/amazon-clone",
@@ -115,14 +115,7 @@ const user: User = {
         },
     ],
     skills: {
-        Languages: [
-            "Javascript",
-            "Typescript",
-            "Python",
-            "Go",
-            "Java",
-            "Rust",
-        ],
+        Languages: ["Javascript", "Typescript", "Python", "Go", "Java", "Rust"],
         FrontEnd: ["React", "Next", "Redux", "Zustand", "React query", "Jotai"],
         BackEnd: ["Express", "Gin", "Spring", "Flask", "Django", "FastApi"],
         Design: ["Tailwind", "CSS", "SASS", "MUI"],
