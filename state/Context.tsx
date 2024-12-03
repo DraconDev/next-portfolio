@@ -53,26 +53,35 @@ const user: User = {
             image_path: "/thumbs/estore.png",
         },
         {
-            name: "Media map",
-            subtitle: "User driven review and recommendation platform",
-            github_link:
-                "https://github.com/DraconDev/next-media-connection-map",
-            description:
-                "Next Typescript Tailwind React-Query Supabase SQL Auth RPC RLS",
-            host_link: "https://next-media-connection-map-icwa.vercel.app/",
-            image_path: "/thumbs/medconmap.png",
-        },
-
-        {
-            name: "Job Board",
+            name: "LinkNexus",
             subtitle: "",
-
-            github_link: "https://github.com/DraconDev/job-board",
+            github_link: "",
             description:
-                "Next Typescript Tailwind Zustand Mongo Next-Auth Quill React Query",
-            host_link: "https://job-board-azure.vercel.app/",
-            image_path: "/thumbs/job_board.png",
+                "Next15+ Typescript Tailwind Next-Auth Drizzle Neon",
+            host_link: "https://linknexus.org",
+            image_path: "/thumbs/linknexus.png",
         },
+        // {
+        //     name: "Media map",
+        //     subtitle: "User driven review and recommendation platform",
+        //     github_link:
+        //         "https://github.com/DraconDev/next-media-connection-map",
+        //     description:
+        //         "Next Typescript Tailwind React-Query Supabase SQL Auth RPC RLS",
+        //     host_link: "https://next-media-connection-map-icwa.vercel.app/",
+        //     image_path: "/thumbs/medconmap.png",
+        // },
+
+        // {
+        //     name: "Job Board",
+        //     subtitle: "",
+
+        //     github_link: "https://github.com/DraconDev/job-board",
+        //     description:
+        //         "Next Typescript Tailwind Zustand Mongo Next-Auth Quill React Query",
+        //     host_link: "https://job-board-azure.vercel.app/",
+        //     image_path: "/thumbs/job_board.png",
+        // },
         // {
         //     name: "Movie recommendations",
         //     subtitle: "",

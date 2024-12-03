@@ -14,12 +14,14 @@ const WorkCard = (props: Props) => {
         <div className="w-full flex flex-col">
             <div className="flex justify-center gap-3 items-center p-1">
                 <div className="text-xl md:text-3xl">{props.project.name}</div>
-                <Link
-                    href={props.project.github_link}
-                    className=" "
-                >
-                    <FaGithub className="w-8 h-8" />
-                </Link>
+                {props.project.github_link !== "" && (
+                    <Link
+                        href={props.project.github_link}
+                        className=" "
+                    >
+                        <FaGithub className="w-8 h-8" />
+                    </Link>
+                )}
             </div>
             <div className="text-md">{props.project.subtitle}</div>
             <Link href={props.project.host_link}>
